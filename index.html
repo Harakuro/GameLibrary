@@ -33,6 +33,9 @@
                         <br>
                         <small>Created by B04莊翔旭 / <a href="https://github.com/Harakuro" target="_blank">@Harakuro</a></small>
                     </p>
+                    <aside class="notes">
+                        歡迎來到具現部的社課，這在部分我主要會說一些做遊戲的共通要素和 Demo 會比較少教學部分，如果想要學習怎麼 coding 可以進入進階社課來學習~ 廢話不多說，馬上進入 Game Library 的介紹吧。
+                    </aside>
                 </section>
             </section>
             <section>
@@ -44,15 +47,21 @@
                             <span class="fragment highlight-red" data-fragment-index="1">基礎控制</span>
                         </li>
                     </ul>
+                    <aside class="notes">
+                        做電子類型遊戲需要兩種要素[空白、空白]，一個主要要素和一個輔助的要素 互動：詢問認為哪個是主要哪個是輔助？ 我們來稍微介紹這兩個要素意義在哪，分別要做什麼
+                    </aside>
                 </section>
                 <section>
                     <h1>基礎繪圖</h1>
                     <ul>
                         <li>
-                            <span class="fragment highlight-red" data-fragment-index="0">幾何圖形</span> &amp;
-                            <span class="fragment highlight-red" data-fragment-index="1">輸入圖像</span>
+                            <span class="fragment highlight-red" data-fragment-index="0">輸入圖像</span> &amp;
+                            <span class="fragment highlight-red" data-fragment-index="1">幾何圖形</span>
                         </li>
                     </ul>
+                    <aside class="notes">
+                        輸入圖像很明顯的就是將現有的圖像素材加進遊戲中，例如背景，人物圖像等等，而沒有輸入圖像，[空白]基本上也會有幾何圖形，能夠簡單的畫出一些線段、多邊形。
+                    </aside>
                 </section>
                 <section>
                     <h1>基礎控制</h1>
@@ -60,18 +69,56 @@
                         <li class="fragment" data-fragment-index="0">滑鼠、鍵盤按鍵</li>
                         <li class="fragment" data-fragment-index="1">麥克風、攝影機</li>
                     </ul>
-                </section>
-                <section>
-                    <h1>預備知識</h1>
-                    <ul>
-                        <li class="fragment" data-fragment-index="0">Pixel(像素)</li>
-                        <li class="fragment" data-fragment-index="1">Color(顏色)</li>
-                        <li class="fragment" data-fragment-index="2">Coordinate(座標)</li>
-                        <li class="fragment" data-fragment-index="3">Event(事件)</li>
-                    </ul>
+                    <aside class="notes">
+                        基礎控制的部分，比較常見的就滑鼠、鍵盤按鍵，例如 W 按下觸發前進動作，滑鼠點擊觸發對話等等。[空白] 更進階的部分就麥克風、攝影機的控制，AR 遊戲，唱歌評分的遊戲等等
+                    </aside>
                 </section>
                 <section>
                     <h1>Three Example</h1>
+                    <aside class="notes">
+                        今天我準備的三種例子來展示給大家看，但是在展示之前，要說明相關的預備知識
+                    </aside>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h1>預備知識</h1>
+                    <ul>
+                        <li>Color(顏色)</li>
+                        <li>Pixel(像素)</li>
+                        <li>Coordinate(座標)</li>
+                        <li>Event(事件)</li>
+                    </ul>
+                    <aside class="notes">
+                    </aside>
+                </section>
+                <section>
+                    <h1>Color(顏色)</h1>
+                    <img src="img/RGB-color.png" style="width: 45%; height: auto;">
+                    <br>
+                    <a href="http://csscoke.com/2015/01/01/rgb-hsl-hex/" target="_blank">延伸閱讀</a>
+                    <aside class="notes">
+                        RGB色彩標記方式是 (0~255 , 0~255, 0~255)，其中括弧內以逗號分隔的三組數值恰好就是 (R, G, B) 的色彩數值，所以數值會是 0~255 共256個數值的這個區間，混色原理就是加法混色，就直接用燈光來想吧，我們把0~255的數值當作是開燈的亮度來看，0就是沒開燈，255就是開到最亮
+                    </aside>
+                </section>
+                <section>
+                    <h1>Pixel(像素)</h1>
+                    <img src="img/pixelex.png" style="width: 70%; height: auto;">
+                    <br>
+                    <a href="https://medium.com/@taylorhu/understanding-ui-units-8acdc0575388#.hdcbv9133" target="_blank">延伸閱讀</a>
+                    <aside class="notes">
+                    </aside>
+                </section>
+                <section>
+                    <h1>Coordinate(座標)</h1>
+                    <img src="img/Computer_coordinates_2D.png">
+                    <aside class="notes">
+                    </aside>
+                </section>
+                <section>
+                    <h1>Event(事件)</h1>
+                    <aside class="notes">
+                    </aside>
                 </section>
             </section>
             <section>
@@ -188,6 +235,14 @@
                         <li><a href="demo/Pygame/wireframe_cube.py">3D Wireframe cube</a></li>
                     </ul>
                 </section>
+                <section>
+                    <h2>我們需要更深入一點</h2>
+                    <ul>
+                        <li><a href="http://programarcadegames.com/index.php" target="_blank">Programarcadegames</a></li>
+                        <li><a href="https://realpython.com/blog/python/pygame-a-primer/" target="_blank">Realpython</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=kovYl14_--8" target="_blank">Kris Occhipinti</a></li>
+                    </ul>
+                </section>
             </section>
             <section>
                 <h2>Other Example</h2>
@@ -206,7 +261,7 @@
     <script>
     Reveal.initialize({
         controls: false,
-        history: false,
+        history: true,
 
         dependencies: [{
             src: 'plugin/zoom-js/zoom.js',
